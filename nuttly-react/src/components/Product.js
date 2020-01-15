@@ -12,7 +12,7 @@ class Product extends Component {
   }
 
   async componentDidMount() {
-    let response = await fetch(`localhost:3000/product/${this.props.match.params.id}`)
+    let response = await fetch(`localhost:1337/products/${this.props.match.params.id}`)
     let data = await response.json()
     this.setState({
       loading: false,
@@ -26,7 +26,7 @@ class Product extends Component {
         <div className="product">
           <div className="product__information">
             <h2 className="Product-title">{this.state.product.name}</h2>
-            <img src={`http://localhost:3000/${this.state.product.image.url}`} />
+            <img src={`http://localhost:1337${this.state.product.Image[0].url}`} />
             <BuyButton {...this.state} />
           </div>
           <div className="product__description">

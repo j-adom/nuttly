@@ -27,7 +27,9 @@ class BuyButton extends Component {
                 data-item-price={this.state.price}
                 data-item-weight={this.state.weight}
                 data-item-url={this.state.url}
-                data-item-description={this.state.description}>
+                data-item-description={this.state.description}
+                data-item-payment-interval="Week"
+                data-item-payment-interval-count="1">
                 ADD TO CART ({this.state.price}$)
             </button>
         );
