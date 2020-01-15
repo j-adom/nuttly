@@ -12,7 +12,7 @@ class Product extends Component {
   }
 
   async componentDidMount() {
-    let response = await fetch(`localhost:1337/products/${this.props.match.params.id}`)
+    let response = await fetch(`http://localhost:1337/products/${this.props.match.params.id}`)
     let data = await response.json()
     this.setState({
       loading: false,

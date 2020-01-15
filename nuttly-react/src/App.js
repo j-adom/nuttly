@@ -27,7 +27,7 @@ const Header = () => {
     <header className="App-header">
       <Link to="/"><h1>Nuttly Plant-based Milk Delivery</h1></Link>
       <div className="right">
-        <button class="snipcart-customer-signin">My account</button>
+        <button className="snipcart-customer-signin">My account</button>
         <button className="snipcart-checkout snipcart-summary">
           <i className="fa fa-shopping-cart"></i> Checkout (<span className="snipcart-total-items"></span>)
       </button>
