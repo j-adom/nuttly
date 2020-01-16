@@ -5,7 +5,7 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start:test": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
@@ -21,7 +21,19 @@
     "strapi-plugin-email": "3.0.0-beta.18.4",
     "strapi-plugin-upload": "3.0.0-beta.18.4",
     "strapi-plugin-users-permissions": "3.0.0-beta.18.4",
-    "strapi-utils": "3.0.0-beta.18.4"
+    "strapi-utils": "3.0.0-beta.18.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.4",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^12.1.0"
   },
   "author": {
     "name": "A Strapi developer"

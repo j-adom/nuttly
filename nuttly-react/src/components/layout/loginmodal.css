@@ -1,0 +1,24 @@
+.modalHeader {
+    background-color: #455d7a;
+    color: white;
+  }
+  
+  .modalFooter {
+    background-color: #455d7a;
+  }
+  
+  .btn-primary.submit-btn {
+      background-color: #f95959;
+    border-color: #f95959;
+  }
+  
+  .btn-primary.submit-btn:hover {
+      background-color: #632323;
+    border-color: #632323;
+  }
+  
+  .modalBody {
+    padding: unset;
+    align-items: unset;
+    text-align: unset;
+  }
