@@ -13,7 +13,7 @@
   "dependencies": {
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
-    "strapi": "3.0.0-beta.18.4",
+    "strapi": "3.6.8",
     "strapi-admin": "3.0.0-beta.18.4",
     "strapi-connector-mongoose": "3.0.0-beta.18.4",
     "strapi-plugin-content-manager": "3.0.0-beta.18.4",
